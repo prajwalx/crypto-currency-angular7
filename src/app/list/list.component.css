@@ -1,0 +1,28 @@
+.row{
+  overflow-x: auto;
+}
+.table{
+  
+}
+th,td{
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+}
+th{
+  font-size: 18px;
+}
+td{
+  font-size: 16px;
+  /* font-family: aileron-UltraLight; */
+  font-family: sans-serif;
+  /* font-weight: bolder; */
+  font-weight: lighter;
+}
+.hideMB{
+  display:table-cell;
+}
+@media only screen and (max-width: 450px)  {
+  .hideMB{
+    display: none;
+  }
+}

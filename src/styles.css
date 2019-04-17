@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'BebasNue-Bold'; /*a name to be used later*/
+    src: url('./assets/fonts/BebasNeue/BebasNeue-Bold.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'aileron-UltraLight'; /*a name to be used later*/
+    src: url('./assets/fonts/aileron/Aileron-UltraLight.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'aileron-Heavy'; /*a name to be used later*/
+    src: url('./assets/fonts/aileron/Aileron-Heavy.otf'); /*URL to font*/
+}

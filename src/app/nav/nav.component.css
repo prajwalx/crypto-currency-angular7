@@ -1,0 +1,22 @@
+.vertical-align-content {
+  display:flex;
+  align-items:center;
+  /*  to get horizontal align also */
+  justify-content:center;
+}
+.navbar{
+  background:#007bff;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  position: inherit;
+}
+.navbar-brand{
+  font-family:sans-serif;
+  font-size: 27px;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 450px)  {
+  .navbar-brand{
+    font-size: 17px;
+  }  
+}

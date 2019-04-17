@@ -1,6 +1,10 @@
-# CryptoApp
-
+# Crypto Currency Tracker App
+If you like this project do give it ":star:" .
+An Angular7 App to track real time detailed data of over 100 top cryptocurrencies.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
+
+## Youtube WalkThrough
+This project's youtube walkthrough is [here](https://youtu.be/292A8yq2U2A)
 
 ## Development server
 
@@ -21,6 +25,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Contribute
+When submitting an issue, please follow the Github issue guidelines. Especially important is to make sure system is up-to-date, and providing the command or commands that cause the issue, as well as any stack traces.
 
 ## Further help
 
