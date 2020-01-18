@@ -9,9 +9,18 @@ export class BtcdataService {
   constructor(private http: HttpClient) { 
   }
   getLatest(){
-    /*Use Some API here , I am using coinmarketcap API*/    
-    // return this.http.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',{headers:{'X-CMC_PRO_API_KEY':'Your-api-key-here'}});    
-    
+    /*
+    Use API here , I am using coinmarketcap API
+    Now coinmarket api does not allow client-side js calls to protect your api key
+    https://github.com/jdogresorg/freewallet-mobile/issues/8#issuecomment-473596738
+
+    Ideally the request should be made on server side and data sent here
+
+    To bypass cors we can use https://cors-anywhere.herokuapp.com/ as follows
+    Cheers.
+     */
+    // return this.http.get('https://cors-anywhere.herokuapp.com/https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',{headers:{'X-CMC_PRO_API_KEY':'Your-api-key-here'}});    
+
     /*Sample data for testing*/
     return {
   "status": {
