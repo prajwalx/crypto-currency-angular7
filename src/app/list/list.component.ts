@@ -6,7 +6,7 @@ import {BtcdataService} from '../btcdata.service';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-  btc:Object;
+  btc:any;
   constructor(private data:BtcdataService) { }
 
   ngOnInit() {
